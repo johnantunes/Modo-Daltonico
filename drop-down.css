@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    list-style-type: none;
+}
+
+
+.dropdown-content input,
+.dropdown-content label {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    flex-direction: row-reverse;
+  }
+
+  .dropdown-content label img {
+    vertical-align: middle;
+
+    width: 27.5px;
+    height: 27px;
+
+  }
+  
+  .dropdown-content {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .dropdown-content label {
+    align-items: center;
+  }
+  
+  .dropdown-content label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-content input[type="radio"] {
+   color:#003F82 ;
+
+  }
+  .dropdown-content label {
+    color: #003F82;
+  }
+  
+  
